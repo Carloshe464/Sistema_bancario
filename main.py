@@ -76,7 +76,6 @@ while True:
 
     elif opcao == "e":
 
-
         print("\n----------------- EXTRATO ---------------")
         print("Não foram realizadas movimentações." if not extrato else extrato)
         print(f"\n saldo: R$ {saldo:.2f}")
